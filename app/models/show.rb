@@ -5,9 +5,8 @@ class Show < ActiveRecord::Base
   
   def actors_list
     #returns array off full names of actor associated with a show
-    self.characters.map do |actors|
-      "#{actors.first_name} #{actors.last_name}"
-    end
+    self.actors.collect |t|
+      t.first_name t.last_name
   end
 end
 
