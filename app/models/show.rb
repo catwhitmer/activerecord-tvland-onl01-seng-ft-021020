@@ -10,18 +10,3 @@ class Show < ActiveRecord::Base
   end
 end
 
-
-
-    
-    
-    
-    #show.characters
-    
-    #character.actor
-    
-    #actor.first_name
-    #actor.last_name
-    
-   #self.characters.map do |character|
-      #character.actor
-    #end
